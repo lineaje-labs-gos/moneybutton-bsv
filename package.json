@@ -95,7 +95,7 @@
     "chai": "^4.2.0",
     "hash.js": "^1.1.7",
     "is-hex": "1.1.3",
-    "pbkdf2": "3.1.6",
+    "pbkdf2": ">=3.1.6",
     "randombytes": "^2.1.0"
   },
   "devDependencies": {
@@ -128,8 +128,18 @@
       "dist/*"
     ]
   },
-  "overrides": {},
+  "overrides": {
+    "pbkdf2": ">=3.1.6",
+    "sha.js": ">=2.4.12",
+    "cipher-base": ">=1.0.7",
+    "get-func-name": ">=2.0.2",
+    "base-x": ">=3.0.11"
+  },
   "resolutions": {
-    "pbkdf2": ">=3.1.6"
+    "pbkdf2": ">=3.1.6",
+    "sha.js": ">=2.4.12",
+    "cipher-base": ">=1.0.7",
+    "get-func-name": ">=2.0.2",
+    "base-x": ">=3.0.11"
   }
 }
